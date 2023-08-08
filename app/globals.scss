@@ -1,1 +1,167 @@
 @import '../node_modules/@nile-ui/nile-ui/styles/index.scss';
+
+#intro {
+    height: calc(50vh - 50px);
+  }
+  
+  .subtitle {
+    margin-top: -5px;
+  }
+  
+  .inspiration {
+    margin-top: -5px;
+  }
+  
+  #samples_container {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    transition: all 0.25s ease;
+  }
+  
+  #samples {
+    width: 1100px;
+    height: 100%;
+  }
+  
+  #samples_container {
+    transform: scale(0.85);
+  }
+  
+  @media (max-width: 1500px) {
+    #samples_container {
+      transform: scale(0.7);
+    }
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1305px) {
+    #samples_container {
+      width: 60%;
+      transform: scale(0.65);
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    #samples_container {
+      width: 60%;
+      transform: scale(0.5);
+    }
+  }
+  
+  #sample-1,
+  #sample-2,
+  #sample-3,
+  #sample-4,
+  #sample-5,
+  #sample-6,
+  #sample-7,
+  #sample-8,
+  #sample-9,
+  #sample-10 {
+    position: absolute;
+  }
+  
+  #sample-1 {
+    top: 50px;
+    left: 10px;
+    animation: bounce 12s ease-in-out infinite;
+  }
+  
+  #sample-2 {
+    top: 150px;
+    left: 640px;
+    animation: bounce 10s ease-in-out infinite;
+  }
+  
+  #sample-3 {
+    top: 70px;
+    left: 480px;
+    animation: bounce 11s ease-in-out infinite;
+  }
+  
+  #sample-4 {
+    top: 280px;
+    left: 20px;
+    animation: bounce 13s ease-in-out infinite;
+  }
+  
+  #sample-5 {
+    top: 305px;
+    left: 220px;
+    animation: bounce 10s ease-in-out infinite;
+  }
+  
+  #sample-6 {
+    top: 275px;
+    left: 330px;
+    animation: bounce 10.5s ease-in-out infinite 0.25s;
+  }
+  
+  #sample-7 {
+    top: 240px;
+    left: 440px;
+    animation: bounce 11.5s ease-in-out infinite;
+  }
+  
+  #sample-8 {
+    top: 175px;
+    left: 475px;
+    animation: bounce 12s ease-in-out infinite;
+  }
+  
+  #sample-9 {
+    top: 425px;
+    left: 200px;
+    animation: bounce 13.5s ease-in-out infinite;
+  }
+  
+  #sample-10 {
+    top: 385px;
+    left: 60px;
+    animation: bounce 12.5s ease-in-out infinite;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translate(0);
+    }
+    30% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(4px);
+    }
+    70% {
+      transform: translateY(-15px);
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .description {
+    transition: all 0.25s ease;
+  }
+  
+  .description:hover {
+    transform: translateY(10px);
+  }
+  
+  .hero {
+    padding-top: 50px;
+  }
+  
+  .min-h-70 {
+    min-height: 70vh;
+  }
+  
+  .footer {
+    background-color: #fafafa !important;
+  }

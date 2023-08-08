@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import './globals.scss'
 import { Poppins } from 'next/font/google'
+import Link from 'next/link'
 
 
 const poppins = Poppins({
@@ -24,6 +25,76 @@ export default function RootLayout({
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet" />
       </head>
       <body className={`${poppins.className} bg-lightGray`}>
+      <div
+    className="navbar fixed top-0"
+  >
+    <div className="navbar-left">
+      <button
+        className="btn navbar-burger-icon ml-0 mr-auto"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <Link href="/" className="navbar-brand">NILE UI</Link>
+      <button className="btn navbar-burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div className="navbar-center">
+      <Link
+        href="/get-started"
+        className="navbar-item"
+        >Quick Start
+      </Link>
+      <div
+        className="dropdown navbar-item hoverable"
+      >
+        <a href="#">Documentation</a>
+        <div className="dropdown-content">
+          <div className="dropdown-menu">
+            <Link href="/elements">
+              <div className="dropdown-item">Elements</div>
+            </Link>
+            <Link href="/form-elements">
+              <div className="dropdown-item">Form Elements</div>
+            </Link>
+            <Link href="/components">
+              <div className="dropdown-item">Components</div>
+            </Link>
+            <Link href="/layout">
+              <div className="dropdown-item">Layout</div>
+            </Link>
+            <Link href="/utilities">
+              <div className="dropdown-item">Utilities</div>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <Link
+        href="#"
+        className="navbar-item"
+        >Examples
+      </Link>
+      <Link
+        href="/roadmap"
+        className="navbar-item"
+        >Road Map
+      </Link>
+    </div>
+    <div className="navbar-right">
+      <a
+        className="navbar-item mb-5"
+        target="_blank"
+        href="https://github.com/nile-ui/nile-ui"
+        ><i className="ri-github-fill fs-3"></i>
+        </a>
+      <span className="tag primary fw-600"
+        >Latest Version: 0.0.5</span>
+    </div>
+  </div>
           {children}
       </body>
     </html>

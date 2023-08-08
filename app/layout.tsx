@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import './globals.scss'
 import { Poppins } from 'next/font/google'
 
@@ -6,6 +7,11 @@ const poppins = Poppins({
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin']
 })
+
+export const metadata: Metadata = {
+  title: 'Nile UI',
+  description: 'Highly customizable beautiful looking components library.',
+}
 
 export default function RootLayout({
   children,

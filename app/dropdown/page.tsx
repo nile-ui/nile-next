@@ -1,5 +1,5 @@
 import Paper from '@/components/Paper'
-import { Section, Container, Subtitle } from 'nile-ui'
+import { Section, Container, Subtitle } from '@nile-ui/nile-ui'
 import React from 'react'
 
 export default function Page() {

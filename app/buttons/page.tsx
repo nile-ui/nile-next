@@ -1,6 +1,6 @@
 import { props, variables } from '@/@data/buttons'
 import Paper from '@/components/Paper'
-import { Button, Container, Paragraph, Section, Subtitle, Table } from 'nile-ui'
+import { Button, Container, Paragraph, Section, Subtitle, Table } from '@nile-ui/nile-ui'
 import React from 'react'
 
 export default function Page() {

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import {Button, Container, Section} from 'nile-ui'
+import {Button, Container, Section} from '@nile-ui/nile-ui'
 
 export default function Home() {
   return (

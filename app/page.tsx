@@ -7,7 +7,7 @@ export default function Home() {
         <p className="subtitle mb-30 text-gray-3 line-height-base fs-5">
           Free, open source and modular
           <span className="text-dark fw-500">ui framework</span> that has built-in
-          <span className="text-dark fw-500">responsive</span> components.
+          <span className="text-dark fw-500"> responsive</span> components.
         </p>
         <div className="flex items-center">
           <button

@@ -49,8 +49,7 @@
   
   @media (max-width: 1024px) {
     #samples_container {
-      width: 60%;
-      transform: scale(0.5);
+      display: none;
     }
   }
   

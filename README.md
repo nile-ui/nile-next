@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![downloads](https://img.shields.io/npm/dt/@nile-ui/nile-ui) ![license](https://img.shields.io/npm/l/@nile-ui/nile-ui) ![issues](https://img.shields.io/github/issues/nile-ui/nile-ui) ![version](https://img.shields.io/github/package-json/v/nile-ui/nile-ui) [![](https://data.jsdelivr.com/v1/package/npm/@nile-ui/nile-ui/badge)](https://www.jsdelivr.com/package/npm/@nile-ui/nile-ui)
 
-## Getting Started
+# [NILE UI](https://nile-ui.vercel.app)
 
-First, run the development server:
+![banner](https://i.ibb.co/qjN74vf/Nile-ui.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Status: Alpha
+
+## Quick Start
+
+### NPM
+
+```sh
+npm install @nile-ui/nile-ui
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**or**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Yarn
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+yarn add @nile-ui/nile-ui
+```
 
-## Learn More
+### CDN
 
-To learn more about Next.js, take a look at the following resources:
+[https://www.jsdelivr.com/package/npm/@nile-ui/nile-ui](https://www.jsdelivr.com/package/npm/@nile-ui/nile-ui?path=dist)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Documentation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Documentation is under development right now. But you can find the documentation here: https://nile-ui.vercel.app

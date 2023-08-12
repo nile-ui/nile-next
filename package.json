@@ -1,5 +1,5 @@
 {
-  "name": "lin-ui",
+  "name": "nile-ui-docs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nile-ui/nile-ui": "^0.0.8",
+    "@nile-ui/nile-ui": "^0.0.10",
     "@types/node": "20.4.6",
     "@types/react": "18.2.18",
     "@types/react-dom": "18.2.7",

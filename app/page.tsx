@@ -1,5 +1,5 @@
-import { Button, Hero, Subtitle, Title, Avatar, Text } from '@nile-ui/nile-ui'
 import Image from 'next/image'
+import { Hero, Title, Subtitle, Text, Button, Avatar } from '@nile-ui/nile-ui'
 
 export default function Home() {
   return (
@@ -24,15 +24,19 @@ export default function Home() {
             </Text>{' '}
             components.
           </Subtitle>
-          <div className='flex items-center'>
+          <div className='flex align-center'>
             <Button color='primary' size='lg' className='mr-10'>
               Get Started
             </Button>
             <Button color='primary' flat size='lg' className='mr-10'>
               Download
             </Button>
-            <a target='_blank' href='https://github.com/nile-ui/nile-ui'>
-              <Button color='dark' bordered size='lg' className='fs-2'>
+            <a
+              target='_blank'
+              className='flex align-center'
+              href='https://github.com/nile-ui/nile-ui'
+            >
+              <Button color='dark' bordered size='mini' className='fs-2'>
                 <i className='ri-github-fill'></i>
               </Button>
             </a>
@@ -98,11 +102,16 @@ export default function Home() {
               <span className='spinner xl primary border-radius-2'></span>
             </div>
 
-            <Avatar color='primary' size='xl' id='sample-6' className='shadow-lg'>
-              <span className='avatar-content'>G</span>
-              <span className='avatar-badge error'></span>
+            <Avatar
+              color='primary'
+              size='xl'
+              id='sample-6'
+              className='shadow-lg'
+              showBadge
+              badgeColor='error'
+            >
+              N
             </Avatar>
-
             <div
               id='sample-7'
               className='card type-5'
@@ -135,6 +144,7 @@ export default function Home() {
                 id='switch-primary-square'
                 className='switch primary square'
                 checked
+                readOnly
               />
               <label htmlFor='switch-primary-square'></label>
             </div>
@@ -153,6 +163,7 @@ export default function Home() {
                   className='checkbox primary'
                   placeholder='Name'
                   checked
+                  readOnly
                 />
                 <label className='label' htmlFor='check_2'>
                   Checkbox

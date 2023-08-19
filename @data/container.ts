@@ -5,7 +5,7 @@ export const props: Prop[] = [
         name: 'fluid',
         description: 'Fluid styled container',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     }
 ]

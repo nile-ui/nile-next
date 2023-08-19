@@ -48,7 +48,7 @@ export default function Page() {
                                 <Table.Cell>{prop.name}</Table.Cell>
                                 <Table.Cell>{prop.description}</Table.Cell>
                                 <Table.Cell>{prop.types}</Table.Cell>
-                                <Table.Cell>{<span className={prop.required === '*' ? 'text-error fs-3 line-height-1' : 'fs-3 line-height-1'}>*</span>}</Table.Cell>
+                                <Table.Cell>{<span className={prop.required === 'Yes' ? 'text-error' : ''}>{prop.required}</span>}</Table.Cell>
                                 <Table.Cell>{prop.default}</Table.Cell>
                             </Table.Row>)}
                         </Table.Body>

@@ -1,109 +1,111 @@
 import { Prop, Style } from "@/@types/data"
+import { Tooltip } from "@nile-ui/nile-ui"
+import { NileSize, NileUI } from "./types"
 
 export const props: Prop[] = [
     {
         name: 'children',
         description: 'Child elements for the button',
         types: 'ReactNode',
-        required: '*', // TODO Change this with tooltip component
+        required: 'Yes',
         default: '-'
     },
     {
         name: 'color',
         description: 'Color of the button',
-        types: 'NileColor',
-        required: '-', // TODO Change this with tooltip component
+        types: <NileUI />,
+        required: 'No',
         default: 'undefined'
     },
     {
         name: 'size',
         description: 'Size of the button',
-        types: 'NileSize',
-        required: '-',
+        types: <NileSize />,
+        required: 'No',
         default: 'md'
     },
     {
         name: 'flat',
         description: 'Flat style for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'bordered',
         description: 'Bordered style for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'square',
         description: 'Square style for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'pill',
         description: 'Pill style for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'circle',
         description: 'Circle style for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'icon',
         description: 'Icon style for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'block',
         description: 'Block style for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'link',
         description: 'Link style for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'floating',
         description: 'Floating style for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'noFloat',
         description: 'Disable floating animation for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'loading',
         description: 'Loading animation for the button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
     {
         name: 'disabled',
         description: 'Disable button',
         types: 'boolean',
-        required: '-',
+        required: 'No',
         default: 'false'
     },
 ]

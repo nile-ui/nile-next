@@ -1,8 +1,10 @@
+import React from 'react'
+
 export interface Prop {
     name: string,
     description: string,
-    types: string,
-    required: '*' | '-',
+    types: React.ReactNode,
+    required: 'Yes' | 'No',
     default: string
 }
 
